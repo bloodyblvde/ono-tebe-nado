@@ -39,7 +39,7 @@ main {
   color: #FFF;
 }
 
-.header-link-acti1ve {
+.header-link-active {
   text-decoration: none;
 }
 
@@ -126,8 +126,6 @@ main {
   letter-spacing: 60px;
 }
 
-/* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
-
 .remove-spacing {
   letter-spacing: normal;
 }
@@ -194,6 +192,7 @@ main {
 .card-link {
   display: block;
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -232,8 +231,8 @@ main {
   font-weight: bold;
   font-size: 22px;
   line-height: 1.2;
-  text-decoration-line: underline;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .card-text {
@@ -242,6 +241,7 @@ main {
   color: #FFF;
   font-size: 20px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .lots-look-more-link {
