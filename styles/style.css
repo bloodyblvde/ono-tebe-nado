@@ -34,11 +34,6 @@ main {
   white-space: nowrap;
 }
 
-.text-link:hover {
-  background-color: #000000;
-  color: #FFF;
-}
-
 .header-link-active {
   text-decoration: none;
 }
@@ -90,7 +85,7 @@ main {
   z-index: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.6000000238418579;
+  opacity: 0.6;
   background-color: #000000;
 }
 
@@ -148,7 +143,7 @@ main {
   word-spacing: 18px;
 }
 
-.bet-button {
+.button {
   border: 1px #FFF solid;
   padding: 14px 32px;
   color: #FFF;
@@ -161,7 +156,7 @@ main {
   cursor: pointer;
 }
 
-.bet-button:hover {
+.button:hover {
   color: #000000;
   background-color: #FFF;
 }
@@ -181,7 +176,7 @@ main {
 .lots-card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 25px;
+  gap: 25px;
   list-style: none;
 }
 
@@ -283,6 +278,7 @@ main {
 }
 
 .about-title {
+  position: relative;
   padding: 100px 0 104px;
   font-weight: bold;
   font-size: 40px;
