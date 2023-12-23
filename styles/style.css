@@ -260,6 +260,7 @@ main {
 }
 
 .about-column-text {
+  justify-self: flex-start;
   grid-column: 2/4;
 }
 
